@@ -5,6 +5,7 @@
 
 ****** 需要定义一个递归方法 ******
 
+```
 - (void)start {
     [UIView animateWithDuration:1 animations:^{
             // timeInterval是后台标准系统时间与目标时间的毫秒差
@@ -20,4 +21,3 @@
         }];
     }];
 }
-
